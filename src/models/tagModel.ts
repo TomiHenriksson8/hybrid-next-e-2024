@@ -1,6 +1,6 @@
 import {ResultSetHeader, RowDataPacket} from 'mysql2';
 import {MediaItem, Tag, TagResult} from '@sharedTypes/DBTypes';
-import promisePool from '../../lib/db';
+import promisePool from '@/lib/db';
 import {MessageResponse} from '@sharedTypes/MessageTypes';
 
 // Request a list of tags
