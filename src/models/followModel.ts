@@ -1,5 +1,5 @@
 import { ResultSetHeader, RowDataPacket, FieldPacket } from "mysql2";
-import promisePool  from '../../lib/db'
+import promisePool  from '@/lib/db'
 
 const addFollow = async (followerId: number, followingId: number) => {
   try {
