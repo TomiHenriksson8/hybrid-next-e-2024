@@ -1,4 +1,4 @@
-import promisePool from '../../lib/db'
+import promisePool from '@/lib/db'
 
 
 /**

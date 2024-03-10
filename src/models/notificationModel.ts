@@ -1,5 +1,5 @@
 import { ResultSetHeader, RowDataPacket, FieldPacket } from "mysql2";
-import promisePool  from '../../lib/db'
+import promisePool  from '@/lib/db'
 
 
 const createComNotification = async (userId: number, notiContent: string, refId: number) => {
