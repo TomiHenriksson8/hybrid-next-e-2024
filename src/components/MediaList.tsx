@@ -23,7 +23,7 @@ const MediaList = async () => {
         {mediaListWhitTags.map((item, index) => (
           <li
             key={index}
-            className="flex flex-col items-center border border-gray-300 p-4 shadow-lg rounded-md bg-white"
+            className="flex flex-col items-center border border-gray-300 p-4 shadow-lg rounded-md bg-white text-black"
           >
             <Image src={item.thumbnail} alt={item.title} width={320} height={200} />
             <h3 className="text-lg font-bold self-start">{item.title}</h3>
